@@ -1,0 +1,140 @@
+.menu {
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.users_list {
+  list-style: none;
+  margin: 16px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 16px;
+}
+
+.user_item {
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  width: 340px;
+  height: 480px;
+  position: relative;
+}
+
+.name {
+  background-image: url(../../public/picture.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 190px;
+  text-align: center;
+  margin: 20px;
+  padding: 130px 0 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ebd8ff;
+  text-transform: uppercase;
+}
+
+.avatar {
+  display: block;
+  width: 80px;
+  clip-path: circle(39px);
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  z-index: 3;
+}
+
+.line {
+  width: 340px;
+  height: 8px;
+  position: absolute;
+  top: calc(50% - 4px);
+  background-color: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.circle {
+  width: 96px;
+  height: 96px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+  border-radius: 48px;
+  position: absolute;
+  top: calc(50% - 48px);
+  left: calc(50% - 48px);
+  z-index: 2;
+}
+
+.statistics {
+  height: 50%;
+  text-align: center;
+  padding-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ebd8ff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.followers,
+.tweets {
+  margin: 0 0 24px 0;
+  font-family: 'Montserrat';
+}
+
+.button_follow,
+.button_load {
+  text-transform: uppercase;
+  width: 196px;
+  height: 50px;
+  border-radius: 11px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: #373737;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button_follow:hover {
+  cursor: pointer;
+  background: #ebd8ffdd;
+}
+
+.following {
+  background-color: #5cd3a8;
+}
+
+.following:hover {
+  background-color: #5cd3a8dd;
+}
+
+.button_load {
+  display: block;
+  margin: 0 auto 0 auto;
+  background: #471ca9;
+  color: #ebd8ff;
+}
+
+.button_load:hover {
+  cursor: pointer;
+  background: #471ca9ee;
+}

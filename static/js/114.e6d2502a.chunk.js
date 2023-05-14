@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_test_task=self.webpackChunkgoit_test_task||[]).push([[114],{6114:function(e,t,s){s.r(t);var a=s(184);t.default=function(){return(0,a.jsx)("div",{children:(0,a.jsx)("h2",{className:"heading",children:"Welcome to the test-task home page"})})}}}]);
+//# sourceMappingURL=114.e6d2502a.chunk.js.map
